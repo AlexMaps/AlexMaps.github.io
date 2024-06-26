@@ -11,20 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* MSc in Geography, University of Guelph, 2023-Current
+* BSc in Environmental Sciences, University of Guelph, 2018-2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Summer 2023: Student Research Assistant
+  * People, plants and policy lab at the University of Guelph
+  * Collected, identified and measure functional traits of ethnobotanicals 
+  * Supervisor: Faisal Moola
+    
+*  May 2022-December 2022: Student Research Assistant
+  * Agriculture and Agri-Foods Canada Research
+  * Worked on various entomology, agriculture, and biocontrol projects. Gained experience identifying, planting, maintaining, and harvesting plants.
+  * Supervisor: Justin Renkema
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
+* Summer 2021: Precision Agronomist
+  * Vivid Machines
+  * Designed field studies, recorded video of plant physiology at various lifecycle stages, captured hyperspectral images, annotated video data, and worked with the data team to oversee analysis and interpretation of field data. Analysed the spectral graphs of damaged plant tissues and compared the relative reflectance of hyperspectral images using SpectralPy.
   * Supervisor: Professor Hub
 
 * Summer 2015: Research Assistant
