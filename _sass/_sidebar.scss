@@ -79,9 +79,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: auto;
-  // set width only, for non-square avatars
-  height: auto;
+  width: 150px; // Set a fixed width for the container
+  height: 300px; // Set the desired height for the container
 
   @include breakpoint($large) {
     display: block;
@@ -90,9 +89,9 @@
   }
 
   img {
-    height: 300px; // Set desired height
-    width: auto; // Maintain aspect ratio
-    max-width: none; // Ensure no max width constraint
+    width: 100%; // Make the image fill the width of the container
+    height: 100%; // Make the image fill the height of the container
+    object-fit: cover; // Crop the image to fit the container
     border-radius: 0%;
 
     @include breakpoint($large) {
