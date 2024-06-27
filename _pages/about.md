@@ -26,7 +26,7 @@ This project compared pixel-based and object-based random forest classification 
 For this preliminary study I assesed how the integration of various data source impacted the accuracies of heathland classification models. The standalone spectral data achieved an overall accuracy of 94.63%. The inclusion of terrain and SAR data resulted in a marginal increase, raising the overall accuracy to 95.12%.
 
 
-**Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**(/files/GCAT_Report.pdf)
+**Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
 
 For this capstone project my group assessed the impacts of rail crossing closure(s) on active transportation users and routes in Guelph for the Guelph Coalition for Active Transportation (GCAT). Using ArcGIS Pro’s Network Analyst and further statistical paired t-test analysis we identified the impacts to 5 crossings with the city. While closures had a minimal impact on pedestrians and cyclists travel times and distances, they often forced cyclists and pedestrians to take more dangerous routes such as those without more lanes and higher speeds. [Read the full report](/files/GCAT_Report.pdf)
 
