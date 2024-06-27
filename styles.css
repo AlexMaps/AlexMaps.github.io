@@ -1,7 +1,6 @@
 .image-container {
   position: relative;
-  width: 100%;
-  max-width: 600px; /* Adjust the max-width as needed */
+  max-width: 600px; /* Adjust as needed */
 }
 
 .fading-image {
@@ -13,6 +12,10 @@
   transition: opacity 1s ease-in-out; /* Adjust the transition duration as needed */
 }
 
-.fading-image.show {
-  opacity: 1;
+.legend-image {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  width: 150px; /* Adjust as needed */
+  z-index: 1; /* Ensure legend appears above other images */
 }
