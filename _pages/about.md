@@ -19,21 +19,33 @@ Past Projects
 **Comparing Pixel and Object-Based Classification of Heathland in Central Newfoundland using Random Forest Classifier**
 
 **Comparing Sentinel 2, SAR and Terrain Data Composites for Heathland Classification in Conne River using Random Forest Classifier**
-<div class="align-right">
-  <video autoplay muted>
-    <source src="/images/RfClassifiedMap.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<div class="image-container align-right">
+  <img src="/images/Gif1.png" class="fading-image" alt="Frame 1">
+  <img src="/images/Gif2.png" class="fading-image" alt="Frame 2">
+  <img src="/images/legend.png" class="fading-image" alt="Legend">
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-      var video = document.getElementById("delayedVideo");
-      video.play();
-    }, 3000); // 1.5 second delay
+    const images = document.querySelectorAll('.fading-image');
+    let currentIndex = 0;
+
+    function showNextImage() {
+      images.forEach((img, index) => {
+        img.classList.remove('show');
+        if (index === currentIndex) {
+          img.classList.add('show');
+        }
+      });
+      currentIndex = (currentIndex + 1) % images.length;
+      setTimeout(showNextImage, 2000); // Adjust the interval as needed (2000ms = 2 seconds)
+    }
+
+    // Start the image fading loop
+    showNextImage();
   });
 </script>
 
 **Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
 
+<link rel="stylesheet" type="text/css" href="/styles.css">
