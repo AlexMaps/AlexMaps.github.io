@@ -16,6 +16,7 @@ I am currently building a Random Forest model to heathlands in MFN Traditional T
 
 Past Projects
 ======
+
 **Comparing Pixel and Object-Based Classification of Heathland in Central Newfoundland using Random Forest Classifier**
 ======
 This project compared pixel-based and object-based random forest classification of landcover. Both methods achieved high accuracies, with the pixel-based model generally outperforming the object-based approach, though the latter provided benefits like noise reduction and enhanced ecological insights through landscape pattern analysis.
