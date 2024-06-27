@@ -12,9 +12,9 @@ title                    : "Alexander's Portfolio"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://alexader-johnston.github.io
-baseurl                  : "Githubportfolio" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+url                      : "https://alexander-johnston.github.io" 
+baseurl                  : ""
+repository               : "alexander-johnston/alexander-johnston.github.io"  
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
