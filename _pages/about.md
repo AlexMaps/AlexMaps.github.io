@@ -25,5 +25,6 @@ Past Projects
     Your browser does not support the video tag.
   </video>
 </div>
+
 **Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
 
