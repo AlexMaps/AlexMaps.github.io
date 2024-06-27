@@ -1,0 +1,18 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+}
+
+.fading-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Adjust the transition duration as needed */
+}
+
+.fading-image.show {
+  opacity: 1;
+}
