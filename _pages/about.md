@@ -17,41 +17,12 @@ I am currently building a Random Forest model to heathlands in MFN Traditional T
 Past Projects
 ======
 **Comparing Pixel and Object-Based Classification of Heathland in Central Newfoundland using Random Forest Classifier**
+This project compared pixel-based and object-based random forest classification of landcover. Both methods achieved high accuracies, with the pixel-based model generally outperforming the object-based approach, though the latter provided benefits like noise reduction and enhanced ecological insights through landscape pattern analysis.
 
 **Comparing Sentinel 2, SAR and Terrain Data Composites for Heathland Classification in Conne River using Random Forest Classifier**
-<div class="image-container align-right">
-  <div style="position: relative;">
-    <img src="/images/Gif1.PNG" class="fading-image" alt="Frame 1">
-    <img src="/images/Gif2.PNG" class="fading-image" alt="Frame 2">
-    <img src="/images/Legend.PNG" class="legend-image" alt="Legend">
-</div>
+For this preliminary study I assesed how the integration of various data source impacted the accuracies of heathland classification models. The standalone spectral data achieved an overall accuracy of 94.63%. The inclusion of terrain and SAR data resulted in a marginal increase, raising the overall accuracy to 95.12%.
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const images = document.querySelectorAll('.fading-image');
-    let currentIndex = 0;
-
-    function showNextImage() {
-      // Fade out the current image
-      const currentImage = images[currentIndex];
-      currentImage.style.opacity = 0;
-
-      // Move to the next image index
-      currentIndex = (currentIndex + 1) % images.length;
-
-      // Fade in the next image after a short delay
-      const nextImage = images[currentIndex];
-      nextImage.style.opacity = 1;
-
-      // Call the function recursively after a delay
-      setTimeout(showNextImage, 2000); // Adjust the interval as needed (2000ms = 2 seconds)
-    }
-
-    // Start the image fading loop
-    showNextImage();
-  });
-</script>
 
 **Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
+For this capstone project my group assessed the impacts of rail crossing closure(s) on active transportation users and routes in Guelph. Using ArcGIS Pro’s Network Analyst and further statistical paired t-test analysis we identified the impacts to 5 crossings with the city. While closures had a minimal impact on pedestrians and cyclists travel times and distances, they did often force cyclist and pedestrain to take more dangerous routes such as those without more lanes and higher speeds. 
 
-<link rel="stylesheet" type="text/css" href="/styles.css">
