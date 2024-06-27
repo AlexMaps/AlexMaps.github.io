@@ -24,7 +24,6 @@ Past Projects
     <img src="/images/Gif1.PNG" class="fading-image" alt="Frame 1">
     <img src="/images/Gif2.PNG" class="fading-image" alt="Frame 2">
     <img src="/images/Legend.PNG" class="legend-image" alt="Legend">
-  </div>
 </div>
 
 <script>
