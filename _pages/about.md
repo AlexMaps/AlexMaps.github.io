@@ -20,9 +20,11 @@ Past Projects
 
 **Comparing Sentinel 2, SAR and Terrain Data Composites for Heathland Classification in Conne River using Random Forest Classifier**
 <div class="image-container align-right">
-  <img src="/images/Gif1.PNG" class="fading-image" alt="Frame 1">
-  <img src="/images/Gif2.PNG" class="fading-image" alt="Frame 2">
-  <img src="/images/Legend.PNG" class="fading-image" alt="Legend">
+  <div style="position: relative;">
+    <img src="/images/Gif1.png" class="fading-image" alt="Frame 1">
+    <img src="/images/Gif2.png" class="fading-image" alt="Frame 2">
+    <img src="/images/legend.png" class="legend-image" alt="Legend">
+  </div>
 </div>
 
 <script>
