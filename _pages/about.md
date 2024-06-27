@@ -33,13 +33,18 @@ Past Projects
     let currentIndex = 0;
 
     function showNextImage() {
-      images.forEach((img, index) => {
-        img.classList.remove('show');
-        if (index === currentIndex) {
-          img.classList.add('show');
-        }
-      });
+      // Fade out the current image
+      const currentImage = images[currentIndex];
+      currentImage.style.opacity = 0;
+
+      // Move to the next image index
       currentIndex = (currentIndex + 1) % images.length;
+
+      // Fade in the next image after a short delay
+      const nextImage = images[currentIndex];
+      nextImage.style.opacity = 1;
+
+      // Call the function recursively after a delay
       setTimeout(showNextImage, 2000); // Adjust the interval as needed (2000ms = 2 seconds)
     }
 
