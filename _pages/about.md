@@ -17,7 +17,7 @@ I am currently building a Random Forest model to heathlands in MFN Traditional T
 Past Projects
 ======
 **Comparing Pixel and Object-Based Classification of Heathland in Central Newfoundland using Random Forest Classifier**
-
+(/images/RFClassification.gif)
 **Comparing Sentinel 2, SAR and Terrain Data Composites for Heathland Classification in Conne River using Random Forest Classifier**
 
 **Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
