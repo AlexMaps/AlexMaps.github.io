@@ -10,6 +10,12 @@
  *
 */
 
+.profile-pic {
+  border-radius: 0; // Make the image rectangular
+  width: 200px; // Adjust width as needed
+  height: auto; // Maintain aspect ratio
+}
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
