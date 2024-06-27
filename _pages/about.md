@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my portfolio"
+title: "Welcome to my Portfolio"
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,6 +19,11 @@ Past Projects
 **Comparing Pixel and Object-Based Classification of Heathland in Central Newfoundland using Random Forest Classifier**
 
 **Comparing Sentinel 2, SAR and Terrain Data Composites for Heathland Classification in Conne River using Random Forest Classifier**
-![Random Forest Classification](/images/RfClassifiedMap.mp4){: .align-right}
+<div class="align-right">
+  <video controls>
+    <source src="/images/RFClassification.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 **Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
 
