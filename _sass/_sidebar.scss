@@ -90,7 +90,9 @@
   }
 
   img {
-    max-width: 300px;
+    height: 300px; // Set desired height
+    width: auto; // Maintain aspect ratio
+    max-width: none; // Ensure no max width constraint
     border-radius: 0%;
 
     @include breakpoint($large) {
