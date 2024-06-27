@@ -21,7 +21,7 @@ repository               : "AlexMaps/AlexMaps.github.io" # Ensure this matches y
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ProfilePic.JPG"
+  avatar           : "ProfilePicture.JPG"
   name             : "Alexander M. Johnston"
   pronouns         : "he/him"  
   bio              : "MSc in Geography"
