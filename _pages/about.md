@@ -31,7 +31,7 @@ Past Projects
     setTimeout(function() {
       var video = document.getElementById("delayedVideo");
       video.play();
-    }, 1500); // 1.5 second delay
+    }, 3000); // 1.5 second delay
   });
 </script>
 
