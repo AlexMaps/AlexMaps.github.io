@@ -1,7 +1,7 @@
 ---
 title: "Tutoring GEOG*2480"
 collection: teaching
-type: "Workshop"
+type: "Tutoring"
 permalink: /teaching/TutoringW24
 venue: "University of Guelph"
 date: 2024-01-06
