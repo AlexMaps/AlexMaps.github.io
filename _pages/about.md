@@ -26,5 +26,14 @@ Past Projects
   </video>
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      var video = document.getElementById("delayedVideo");
+      video.play();
+    }, 1500); // 1.5 second delay
+  });
+</script>
+
 **Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
 
