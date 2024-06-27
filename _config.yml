@@ -23,9 +23,9 @@ author:
   # Biographic information
   avatar           : "ProfilePic.JPG"
   name             : "Alexander M. Johnston"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  pronouns         : "he/him"  
+  bio              : "MSc in Geography"
+  location         : "Guelph, On"
   employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
