@@ -28,5 +28,5 @@ For this preliminary study I assesed how the integration of various data source 
 
 **Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
 
-For this capstone project my group assessed the impacts of rail crossing closure(s) on active transportation users and routes in Guelph. Using ArcGIS Pro’s Network Analyst and further statistical paired t-test analysis we identified the impacts to 5 crossings with the city. While closures had a minimal impact on pedestrians and cyclists travel times and distances, they did often force cyclist and pedestrain to take more dangerous routes such as those without more lanes and higher speeds. [Read the full report](files/GCAT_Report.pdf)
+For this capstone project my group assessed the impacts of rail crossing closure(s) on active transportation users and routes in Guelph. Using ArcGIS Pro’s Network Analyst and further statistical paired t-test analysis we identified the impacts to 5 crossings with the city. While closures had a minimal impact on pedestrians and cyclists travel times and distances, they did often force cyclist and pedestrain to take more dangerous routes such as those without more lanes and higher speeds. [Read the full report](AlexMaps.github.io/files/GCAT_Report.pdf)
 
