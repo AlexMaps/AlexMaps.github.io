@@ -12,9 +12,9 @@ title                    : "Alexander's Portfolio"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://alexader-johnston.github.io
+url                      : https://AlexMaps.github.io
 baseurl                  : ""
-repository               : "Alexader-Johnston/Alexader-Johnston.github.io" # Ensure this matches your repository
+repository               : "AlexMaps/AlexMaps.github.io" # Ensure this matches your repository
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
