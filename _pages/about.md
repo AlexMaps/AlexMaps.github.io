@@ -2,7 +2,7 @@
 permalink: /
 title: "Welcome to my Portfolio"
 header:
-  overlay_image: ContourBanner.png
+  image: ContourBanner.png
 author_profile: true
 redirect_from: 
   - /about/
