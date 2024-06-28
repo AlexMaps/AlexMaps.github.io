@@ -10,7 +10,7 @@ redirect_from:
 ---
 <style>
   .sidebar {
-    padding-top: 300px; /* Initial margin */
+    padding-top: 180px; /* Initial margin */
     position: relative; /* Initial position */
   }
 </style>
