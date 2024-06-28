@@ -10,7 +10,6 @@ redirect_from:
 ---
 <style>
   .sidebar {
-    padding-top: 10px; /* Initial margin */
     position: relative; /* Initial position */
   }
 </style>
