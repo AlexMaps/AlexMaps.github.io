@@ -10,25 +10,25 @@ redirect_from:
 ---
 <style>
   .sidebar {
-    padding-top: 30vh;
+    padding-top: 30vh; /* 30% of the viewport height */
     position: absolute; /* Initial position */
   }
 
   @media (max-width: 1200px) {
     .sidebar {
-      padding-top: 200px; /* Adjust this value for smaller screens */
+      padding-top: 25vh; /* Adjust this value for smaller screens */
     }
   }
 
   @media (max-width: 800px) {
     .sidebar {
-      padding-top: 100px; /* Adjust this value for even smaller screens */
+      padding-top: 20vh; /* Adjust this value for even smaller screens */
     }
   }
 
   @media (max-width: 600px) {
     .sidebar {
-      padding-top: 50px; /* Adjust this value for mobile devices */
+      padding-top: 15vh; /* Adjust this value for mobile devices */
     }
   }
 
@@ -36,7 +36,7 @@ redirect_from:
     .sidebar {
       position: relative;
       padding-top: 0; /* Remove padding for very small screens */
-      margin-top: 20px; /* Add a small margin for spacing */
+      margin-top: 10vh; /* Add a small margin for spacing */
     }
   }
 </style>
