@@ -23,7 +23,7 @@ Current Projects
 ======
 I am currently building a Random Forest model to heathlands in MFN Traditional Territory. This summer I will be gathering ground truth poitns for validation and calibration of my model. In addition to heathland detection my research seeks to explore the factors influencing primary succession of heathlands at the landscape level—a dimension that has not been extensively studied.
 
-(/images/DJI_0047.JPG)
+![3P lab Quadrat Sampling in culturally significant heathland above Conne River](/images/DJI_0047.JPG)
 
 Past Projects
 ======
