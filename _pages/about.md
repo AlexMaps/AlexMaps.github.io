@@ -9,12 +9,22 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-.sidebar {
-  top: 300px; /* Add padding to accomodate the header */
-  position: fixed;
-}
-</style>
+<div style="position: relative; padding-top: 300px;">
+  <!-- Header content, such as an image -->
+  <img src="/path/to/ContourBanner2.png" alt="Header Image" style="width: 100%; height: auto;">
+</div>
+
+<div style="position: relative; padding-top: 20px; padding-bottom: 20px; background-color: #f0f0f0; width: 250px;">
+  <!-- Sidebar content -->
+  <h2>Sidebar Title</h2>
+  <p>Sidebar content goes here...</p>
+</div>
+
+<div class="main-content" style="margin-left: 270px; padding: 20px;">
+  <!-- Main content of your about page -->
+  <h1>About Me</h1>
+  <p>Main content text...</p>
+</div>
 
 My name is Alexander Johnston, I am a Master's student at the University of Guelph in the Geography Department. My research is on mapping of heathland habitats and disturbance histories within the Miawpukek First Nations (MFN) Traditional Territory. My primary research objectives are to develop a model to classify heathlands in MFN Traditional Territory and to explore the relationship between historic disturbances and comtempoary heathland distribution. 
 
