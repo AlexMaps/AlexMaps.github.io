@@ -10,15 +10,9 @@ redirect_from:
 ---
 
 <style>
-.header {
-  position: relative;
-  padding-bottom: 20px; /* Adjust as needed */
-  z-index: 10; /* Ensure header is on top */
-}
-
 .sidebar {
-  margin-top: 20px; /* Ensure space below header */
-  padding: 10px; /* Add padding for separation */
+  padding-top: 300px; /* Add padding to accomodate the header */
+  position: fixed;
 }
 </style>
 
