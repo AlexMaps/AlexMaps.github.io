@@ -262,5 +262,6 @@
 .about-page .sidebar {
   @media screen and (min-width: $sidebar-screen-min-width) {
     padding-top: 300px; /* Adjust the value as needed */
+    border: 5px solid red; /* Temporary debug style */
   }
 }
