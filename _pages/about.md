@@ -11,7 +11,7 @@ redirect_from:
 
 <style>
 .sidebar {
-  padding-top: 300px; /* Add padding to accomodate the header */
+  top: 300px; /* Add padding to accomodate the header */
   position: fixed;
 }
 </style>
