@@ -260,5 +260,7 @@
 }
 
 .about-page .sidebar {
-  padding-top: 300px;
+  @media screen and (min-width: $sidebar-screen-min-width) {
+    padding-top: 120px; /* Adjust the value as needed */
+  }
 }
