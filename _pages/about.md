@@ -10,9 +10,8 @@ redirect_from:
 ---
 
 <style>
-/* Add specific padding to the sidebar to accomodate the header */
-.header {
-  padding-bottom: 300px; /* Adjust the value as needed */
+.masthead {
+  padding-bottom: 20px; /* Adjust the value as needed */
 }
 </style>
 
