@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "Welcome to my Portfolio"
+header:
+  image: /images/ContourLines.jpg
 author_profile: true
 redirect_from: 
   - /about/
