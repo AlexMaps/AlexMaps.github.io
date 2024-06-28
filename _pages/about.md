@@ -10,8 +10,15 @@ redirect_from:
 ---
 
 <style>
-.masthead {
-  padding-bottom: 300x; /* Adjust the value as needed */
+.header {
+  position: relative;
+  padding-bottom: 20px; /* Adjust as needed */
+  z-index: 10; /* Ensure header is on top */
+}
+
+.sidebar {
+  margin-top: 20px; /* Ensure space below header */
+  padding: 10px; /* Add padding for separation */
 }
 </style>
 
