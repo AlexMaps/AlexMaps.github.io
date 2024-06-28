@@ -10,23 +10,6 @@
  *
 */
 
-/* Custom Banner Styles */
-.page-header {
-  background: url('/images/ContourLines.jpg') no-repeat center center;
-  background-size: cover;
-  height: 400px; // Adjust the height as needed
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-}
-
-.page-header h1 {
-  font-size: 3em;
-  margin: 0;
-}
-
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
