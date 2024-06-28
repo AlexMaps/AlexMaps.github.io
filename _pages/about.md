@@ -11,7 +11,7 @@ redirect_from:
 
 <style>
 .masthead {
-  padding-bottom: 20px; /* Adjust the value as needed */
+  padding-bottom: 300x; /* Adjust the value as needed */
 }
 </style>
 
