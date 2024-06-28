@@ -9,10 +9,37 @@ redirect_from:
   - /about.html
 ---
 <style>
-.sidebar {
-  margin-top: 180px; /* Adjust padding for spacing */
-}
+  .sidebar {
+    padding-top: 300px; /* Initial margin */
+    position: relative; /* Initial position */
+  }
+
+  .sidebar.fixed {
+    position: fixed; /* Fixed position when scrolled */
+    top: 0; /* Stick to the top */
+    margin-top: 0; /* Remove initial margin */
+  }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var sidebar = document.querySelector('.sidebar');
+    var initialOffsetTop = sidebar.offsetTop - 300;
+
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > initialOffsetTop) {
+        sidebar.classList.add('fixed');
+      } else {
+        sidebar.classList.remove('fixed');
+      }
+    });
+  });
+</script>
+
+<div class="sidebar">
+  {% include sidebar.html %}
+</div>
+
 My name is Alexander Johnston, I am a Master's student at the University of Guelph in the Geography Department. My research is on mapping of heathland habitats and disturbance histories within the Miawpukek First Nations (MFN) Traditional Territory. My primary research objectives are to develop a model to classify heathlands in MFN Traditional Territory and to explore the relationship between historic disturbances and comtempoary heathland distribution. 
 
 ![Heathlands in the highlands of MFN traditional territory](/images/DJI_0074.JPG)
