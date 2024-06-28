@@ -2,7 +2,7 @@
 permalink: /
 title: "Welcome to my Portfolio"
 header:
-  image: /images/ContourLines.jpg
+  image: /images/ContourBanner.png
   caption: "Exploring the World of GIS and Geomatics"
 author_profile: true
 redirect_from: 
