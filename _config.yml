@@ -231,6 +231,8 @@ defaults:
   - scope:
       path: ""
       type: pages
+    header:
+      overlay_image: /images/ContourLines.jpg
     values:
       layout: single
       author_profile: true
