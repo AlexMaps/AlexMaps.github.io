@@ -2,22 +2,27 @@
 <html>
 <head>
   <title>Landcover Classification Map</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <style>
-    body, html {
-      height: 100%;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
     #map {
       width: 100%;
-      height: 100%;
-      border: none;
+      height: 100vh;
     }
   </style>
 </head>
 <body>
-  <iframe id="map" src="https://earthengine.googleapis.com/v1/projects/mfnthesis/maps/d567f140b378982bce978a72a6971e34-accd1c089eebf21ae995180f9c88f62b/tiles/%7Bz%7D/%7Bx%7D/%7By%7D" width="100%" height="100%"></iframe>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script>
+    // Initialize the map
+    var map = L.map('map').setView([0, 0], 2);
+
+    // Add the GEE tile layer
+    L.tileLayer('https://earthengine.googleapis.com/v1/projects/mfnthesis/maps/d567f140b378982bce978a72a6971e34-accd1c089eebf21ae995180f9c88f62b/tiles/{z}/{x}/{y}', {
+      attribution: '&copy; <a href="https://earthengine.google.com/">Google Earth Engine</a>'
+    }).addTo(map);
+  </script>
 </body>
 </html>
