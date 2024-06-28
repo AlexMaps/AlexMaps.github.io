@@ -11,9 +11,9 @@ classes: about-page
 ---
 
 <style>
-/* Add specific padding to the sidebar for this page */
+/* Add specific padding to the sidebar to accomodate the header */
 .sidebar {
-  padding-top: 300px !important; /* Adjust the value as needed */
+  padding-top: 300px !important; 
 }
 </style>
 
