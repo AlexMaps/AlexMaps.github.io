@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+
 Professional Scientific Highlights
 ======
 * Key Skills: GIS, remote sensing, machine learning, land cover classification, and ecological data analysis. 
