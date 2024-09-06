@@ -20,12 +20,12 @@ Professional Scientific Highlights
 
 Education
 ======
-* M.Sc. in Geography. People, Plants and Policy Lab | University of Guelph, Guelph ON | 2023-Present 
+* M.Sc. in Geography. People, Plants and Policy Lab. University of Guelph, Guelph ON. 2023-Present 
   * Developing land cover map of Miawpukek First Nation (MFN) traditional territory for Miawpukek Natural Resources. Integrating remote sensing data and machine learning models.
   * Conducting high-resolution drone mapping using a DJI Mavic 3E for precise land cover analysis.
   * Research outputs will be shared with Miawpukek Natural Resource for use on land management and conservation projects. 
 
-* B.Sc. in Environmental Sciences (Co-op). Minor in Applied Geomatics  | University of Guelph, Guelph ON | 2018 - 2022
+* B.Sc. in Environmental Sciences (Co-op). Minor in Applied Geomatics. University of Guelph, Guelph ON. 2018 - 2022
   * Gained experience collecting, cleaning, and analyzing spatial data for a network analysis of the cycling active transportation network for The Guelph Coalition of Active Transportation (GCAT).
   * Used multivariate regressions to determine the efficacy of reflectance data from handheld reflectometers in the estimation of soil organic carbon from OMAFRA topsoil program.
   * Developed an interest in Indigenous and community-based environmental management.
@@ -33,24 +33,24 @@ Education
 
 Work experience
 ======
-* Student Research Assistant | University of Guelph 3P Lab, Guelph ON | May 2023-August 2023
+* Student Research Assistant. University of Guelph 3P Lab, Guelph ON. May 2023-August 2023
   * People, plants and policy lab at the University of Guelph
   * Collected, identified and measure functional traits of ethnobotanicals
   * Navigated to field sites and recorded plant abundance for plant community surveys.
   *Labeled and processed ethnobotanical samples for the herbarium and MFN Natural Resources
   * Supervisor: Dr. Faisal Moola
     
-* Student Research Assistant | Agriculture and Agri-Foods Canada Research, Vineland ON | May 2022-December 2022
+* Student Research Assistant. Agriculture and Agri-Foods Canada Research, Vineland ON. May 2022-December 2022
   * Agriculture and Agri-Foods Canada Research
   * Worked on various entomology, agriculture, and biocontrol projects. Gained experience identifying, planting, maintaining, and harvesting plants.
   * Contributed data and analysis to a national project comparing the effectiveness of moth traps baited with volatiles to conventional pheromone traps.
 
-* Precision Agronomist | Vivid Machines, Toronto ON | May 2021- August 2021
+* Precision Agronomist. Vivid Machines, Toronto ON. May 2021- August 2021
   * Vivid Machines is an Ag-Tech start-up developing optical sensors and machine learning algorithms to provide fruit and vegetable farmers with plant-specific insights.
   * Designed and executed field studies to gather high-quality data on plant physiology and health.
   * Recorded video data, captured hyperspectral images, and analyzed spectral graphs of plant tissues using SpectralPy. Collaborated with the data team to interpret findings.
 
-* Independent Contractor & Assistant Programs Analyst | Ontario Soil and Crop Improvement Association | January 2019 – May 2023
+* Independent Contractor & Assistant Programs Analyst. Ontario Soil and Crop Improvement Association. January 2019 – May 2023
   * Mapped project sites, identifying species impacted by projects and those with critical habitat to support the Species at Risk Partnership on Agricultural Lands (SARPAL) program.
   * Analyzed trends in farm Best Management Practices within the Lake Erie watershed.
   * Produced comprehensive reports and maps that facilitated the successful completion of SARPAL agreements.
@@ -69,14 +69,14 @@ Teaching
   
 Service and leadership
 ======
-* CSA Bike Shop Volunteer | 2019-Present 
-  *Repaired bikes and taught students bike maintenance skills.
+* CSA Bike Shop Volunteer. 2019-Present 
+  * Repaired bikes and taught students bike maintenance skills.
 
-*President of the University of Guelph Cycling Club (UGC) | 2019-2023
-  *President of the University of Guelph Cycling Club. Responsible for organizing group rides and events, organizing transportation to and from races, and reviewing membership applications.
-  *Successfully led efforts to gain accreditation as an official athletics club, enhancing the club's recognition and access to university resources.
+* President of the University of Guelph Cycling Club (UGC). 2019-2023
+  * President of the University of Guelph Cycling Club. Responsible for organizing group rides and events, organizing transportation to and from races, and reviewing membership applications.
+  * Successfully led efforts to gain accreditation as an official athletics club, enhancing the club's recognition and access to university resources.
 
-*Mishta-shipu Explorer (Leadership Canoe Trip) | 2016
-  *Led a portion of a month-long whitewater canoe trip on the Mishta-shipu (Moisie) River.
-  *Developed an early interest in fire ecology and indigenous led conservation.
+* Mishta-shipu Explorer (Leadership Canoe Trip)/ 2016
+  * Led a portion of a month-long whitewater canoe trip on the Mishta-shipu (Moisie) River.
+  * Developed an early interest in fire ecology and indigenous led conservation.
 
