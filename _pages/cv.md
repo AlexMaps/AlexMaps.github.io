@@ -33,34 +33,27 @@ Education
 
 Work experience
 ======
-* Summer 2023: Student Research Assistant
+* Student Research Assistant | University of Guelph 3P Lab, Guelph ON | May 2023-August 2023
   * People, plants and policy lab at the University of Guelph
-  * Collected, identified and measure functional traits of ethnobotanicals 
+  * Collected, identified and measure functional traits of ethnobotanicals
+  * Navigated to field sites and recorded plant abundance for plant community surveys.
+  *Labeled and processed ethnobotanical samples for the herbarium and MFN Natural Resources
   * Supervisor: Dr. Faisal Moola
     
-*  May 2022-December 2022: Student Research Assistant
+* Student Research Assistant | Agriculture and Agri-Foods Canada Research, Vineland ON | May 2022-December 2022
   * Agriculture and Agri-Foods Canada Research
   * Worked on various entomology, agriculture, and biocontrol projects. Gained experience identifying, planting, maintaining, and harvesting plants.
+  * Contributed data and analysis to a national project comparing the effectiveness of moth traps baited with volatiles to conventional pheromone traps.
 
+* Precision Agronomist | Vivid Machines, Toronto ON | May 2021- August 2021
+  * Vivid Machines is an Ag-Tech start-up developing optical sensors and machine learning algorithms to provide fruit and vegetable farmers with plant-specific insights.
+  * Designed and executed field studies to gather high-quality data on plant physiology and health.
+  * Recorded video data, captured hyperspectral images, and analyzed spectral graphs of plant tissues using SpectralPy. Collaborated with the data team to interpret findings.
 
-* Summer 2021: Precision Agronomist
-  * Vivid Machines
-  * Designed field studies, recorded video of plant physiology at various lifecycle stages, captured hyperspectral images, annotated video data, and worked with the data team to oversee analysis and interpretation of field data. Analysed the spectral graphs of damaged plant tissues and compared the relative reflectance of hyperspectral images using SpectralPy.
-  
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Independent Contractor & Assistant Programs Analyst | Ontario Soil and Crop Improvement Association | January 2019 – May 2023
+  * Mapped project sites, identifying species impacted by projects and those with critical habitat to support the Species at Risk Partnership on Agricultural Lands (SARPAL) program.
+  * Analyzed trends in farm Best Management Practices within the Lake Erie watershed.
+  * Produced comprehensive reports and maps that facilitated the successful completion of SARPAL agreements.
 
 //Publications
 //======
