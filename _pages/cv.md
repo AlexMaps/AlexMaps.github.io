@@ -41,7 +41,6 @@ Work experience
   * Supervisor: Dr. Faisal Moola
     
 * Student Research Assistant. Agriculture and Agri-Foods Canada Research, Vineland ON. May 2022-December 2022
-  * Agriculture and Agri-Foods Canada Research
   * Worked on various entomology, agriculture, and biocontrol projects. Gained experience identifying, planting, maintaining, and harvesting plants.
   * Contributed data and analysis to a national project comparing the effectiveness of moth traps baited with volatiles to conventional pheromone traps.
 
@@ -54,18 +53,6 @@ Work experience
   * Mapped project sites, identifying species impacted by projects and those with critical habitat to support the Species at Risk Partnership on Agricultural Lands (SARPAL) program.
   * Analyzed trends in farm Best Management Practices within the Lake Erie watershed.
   * Produced comprehensive reports and maps that facilitated the successful completion of SARPAL agreements.
-
-//Publications
-//======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Service and leadership
 ======
@@ -79,4 +66,10 @@ Service and leadership
 * Mishta-shipu Explorer (Leadership Canoe Trip)/ 2016
   * Led a portion of a month-long whitewater canoe trip on the Mishta-shipu (Moisie) River.
   * Developed an early interest in fire ecology and indigenous led conservation.
+
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
