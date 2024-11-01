@@ -51,7 +51,7 @@ Current Projects
 ======
 I have a working landcover map of the traditional territory and am currently working on a post fire sucession detection model based on  burn severity and the slope of log transformed spectral indices.  
 
-![Landcover Map of Traditional Territory and examples of Forest to Heathland Detection](/images/Forest2HeathlandPrediction.JPG)
+![Landcover Map of Traditional Territory and examples of Forest to Heathland Detection](/images/Forest2HeathlandPrediction.jpg)
 
 
 Past Projects
