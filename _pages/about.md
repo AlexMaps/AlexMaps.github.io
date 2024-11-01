@@ -42,14 +42,14 @@ redirect_from:
 </style>
 
 
-My name is Alexander Johnston, I am a Master's student at the University of Guelph in the Geography Department. My research is on mapping of heathland habitats and disturbance histories within the Miawpukek First Nations (MFN) Traditional Territory. My primary research objectives are to develop a model to classify heathlands in MFN Traditional Territory and to explore the relationship between historic disturbances and comtempoary heathland distribution. 
+My name is Alexander Johnston, I am a Master's student at the University of Guelph in the Geography Department. My research is on mapping of heathland habitats and disturbance histories within the Miawpukek First Nations (MFN) Traditional Territory. My primary research objective is to investigate the dynamics between forest and heathland ecosystems, focusing the post disturbance sucession and its implications for forest management and conservation practices
 
 ![3P lab Quadrat Sampling in culturally significant heathland above Conne River](/images/DJI_0047.JPG)
 
 
 Current Projects
 ======
-I have a working landcover map of the traditional territory and am currently working on a post fire sucession detection model based on  burn severity and the slope of log transformed spectral indices.  
+I developed a functional land cover map for the traditional territory. I am currently constructing a post-fire succession detection model using burn severity and the slope of log-transformed spectral indices.
 
 ![Landcover Map of Traditional Territory and examples of Forest to Heathland Detection](/images/Forest2HeathlandPrediction.jpg)
 
