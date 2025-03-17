@@ -14,7 +14,7 @@ toc: true
 
   .photo-gallery-container {
     width: 90%; /* Adjust as needed */
-    max-width: 1400px; /* Prevents it from being too wide on large screens */
+    max-width: 1800px; /* Prevents it from being too wide on large screens */
     margin: auto;
     padding: 10px;
   }
