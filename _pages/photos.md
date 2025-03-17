@@ -5,28 +5,28 @@ toc: true
 ---
 
 <style>
-  /* Override theme constraints */
+  /* Ensure the page content is constrained */
   .page-content {
-    max-width: 100vw !important; /* Use full viewport width */
-    padding: 0 !important;
-    margin: 0 !important;
+    max-width: 100% !important; /* Use full available width but stay within page */
+    padding: 0;
+    margin: auto;
   }
 
   .photo-gallery-container {
-    width: 100vw;
-    margin: 0 auto;
+    width: 90%; /* Adjust as needed */
+    max-width: 1400px; /* Prevents it from being too wide on large screens */
+    margin: auto;
     padding: 10px;
   }
 
   .photo-gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
     gap: 5px;
-    justify-content: center;
   }
 
   .photo-gallery img {
-    width: 100%; /* Ensures images fit their grid space */
+    width: 100%; /* Ensures images fit grid */
     height: auto;
     object-fit: cover;
     border-radius: 5px;
@@ -37,8 +37,8 @@ toc: true
     transform: scale(1.05);
   }
 
-  /* Responsive: Adjust columns for smaller screens */
-  @media (max-width: 1024px) {
+  /* Responsive Design */
+  @media (max-width: 1200px) {
     .photo-gallery {
       grid-template-columns: repeat(3, 1fr);
     }
