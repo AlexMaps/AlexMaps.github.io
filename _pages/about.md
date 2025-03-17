@@ -49,7 +49,7 @@ My name is Alexander Johnston, I am a Master's student at the University of Guel
 
 Current Projects
 ======
-I developed a functional land cover map for the traditional territory. I am currently constructing a post-fire succession detection model using burn severity and the slope of log-transformed spectral indices.
+I've created a land cover map of heathlands, wetlands, and forests for MFN traditional territory. I am currently constructing a post-fire succession detection model using burn severity and the slope of log-transformed spectral indices.
 
 ![Landcover Map of Traditional Territory and examples of Forest to Heathland Detection](/images/Forest2HeathlandPrediction.jpg)
 
