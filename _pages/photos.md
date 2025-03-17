@@ -9,7 +9,7 @@ toc: true
 
   {% for photo in photos %}
     <a href="/images/filmphotos/{{ photo }}" target="_blank">
-      <img src="/assets/images/filmphotos/{{ photo }}" alt="Film Photo" style="width: 200px; height: auto; border-radius: 5px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="/images/filmphotos/{{ photo }}" alt="Film Photo" style="width: 200px; height: auto; border-radius: 5px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
     </a>
   {% endfor %}
 </div>
