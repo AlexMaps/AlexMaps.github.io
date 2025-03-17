@@ -13,8 +13,8 @@ toc: true
   }
 
   .photo-gallery-container {
-    width: 100%; /* Adjust as needed */
-    max-width: 3500px; /* Prevents it from being too wide on large screens */
+    width: 100%;
+    max-width: none;
     margin: auto;
     padding: 10px;
   }
