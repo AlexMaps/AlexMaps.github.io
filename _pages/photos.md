@@ -4,16 +4,17 @@ permalink: /photos/
 toc: true
 ---
 
+## Film Photos
+
 <style>
   .photo-gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Dynamic column sizing */
     gap: 5px;
-    justify-content: center; /* Ensures images spread evenly */
+    justify-content: center;
   }
   .photo-gallery img {
-    width: calc(100% / 5 - 10px); /* Adjusts images to fit in a 5-column grid */
-    max-width: 100%;
+    width: 100%; /* Ensures images stretch to fill grid */
     height: auto;
     object-fit: cover;
     border-radius: 5px;
@@ -21,24 +22,6 @@ toc: true
   }
   .photo-gallery img:hover {
     transform: scale(1.05);
-  }
-
-  @media (max-width: 1024px) {
-    .photo-gallery img {
-      width: calc(100% / 4 - 10px); /* 4 columns on medium screens */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .photo-gallery img {
-      width: calc(100% / 3 - 10px); /* 3 columns on tablets */
-    }
-  }
-
-  @media (max-width: 480px) {
-    .photo-gallery img {
-      width: calc(100% / 2 - 10px); /* 2 columns on mobile */
-    }
   }
 </style>
 
