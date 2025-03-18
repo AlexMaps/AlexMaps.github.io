@@ -11,7 +11,7 @@ redirect_from:
 <style>
   .sidebar {
     position: relative; /* Keeps it in the normal document flow */
-    margin-top: 5vh; /* Pushes it down */
+    margin-top: 1vh; /* Pushes it down */
 }
 </style>
 
