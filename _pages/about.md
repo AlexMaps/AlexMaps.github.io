@@ -9,8 +9,11 @@ redirect_from:
   - /about.html
 ---
 <style>
+  .sidebar {
+    position: relative; /* Keeps it in the normal document flow */
+    margin-top: 15vh; /* Pushes it down */
+  }
 .sidebar img {
-  margin-top: 5vh; /* Push image down */
   max-width: 100%; /* Ensures it resizes properly */
   height: auto;
 }
