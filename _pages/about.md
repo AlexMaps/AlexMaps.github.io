@@ -8,7 +8,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<style>
+  .sidebar img {
+  max-width: 100%; /* Ensures it resizes properly */
+  height: auto;
+}
+</style>
 My name is Alexander Johnston, I am a Master's student at the University of Guelph in the Geography Department. My research is on mapping of heathland habitats and disturbance histories within the Miawpukek First Nations (MFN) Traditional Territory. My primary research objective is to investigate the dynamics between forest and heathland ecosystems, focusing the post disturbance sucession and its implications for forest management and conservation practices
 
 ![3P lab Quadrat Sampling in culturally significant heathland above Conne River](/images/DJI_0047.JPG)
