@@ -9,18 +9,21 @@ redirect_from:
   - /about.html
 ---
 <style>
-.sidebar {
-  position: relative; /* Keeps it in normal document flow */
-  display: block; /* Ensures it behaves like a normal div */
-  clear: both; /* Prevents floating next to the header */
-  margin-top: 5vh; /* Push it down slightly */
-  width: 100%; /* Ensures full width alignment */
-  text-align: center; /* Centers content inside */
+.header-sidebar-wrapper {
+  display: flex;
+  flex-direction: column; /* Stacks header and sidebar */
+  align-items: center; /* Keeps content centered */
 }
 
-.sidebar img {
-  max-width: 100%; /* Ensures it resizes properly */
+.header-image img {
+  width: 100%; /* Makes sure it spans full width */
   height: auto;
+}
+
+.sidebar {
+  width: 100%;
+  text-align: center;
+  margin-top: 5vh;
 }
 </style>
 
