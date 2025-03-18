@@ -21,8 +21,9 @@ toc: true
 
   .photo-gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 5px;
+    justify-content: center;
   }
 
   .photo-gallery img {
