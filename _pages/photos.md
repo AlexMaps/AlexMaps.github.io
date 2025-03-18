@@ -7,9 +7,10 @@ toc: true
 <style>
   /* Ensure the page content is constrained */
   .page-content {
-    max-width: 100% !important; /* Use full available width but stay within page */
+    width: 100%;
+    max-width: none;
     padding: 0;
-    margin: auto;
+    margin: 0;
   }
 
   .photo-gallery-container {
