@@ -8,25 +8,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<style>
-.header-sidebar-wrapper {
-  display: flex;
-  flex-direction: column; /* Stacks header and sidebar */
-  align-items: center; /* Keeps content centered */
-}
-
-.header-image img {
-  width: 100%; /* Makes sure it spans full width */
-  height: auto;
-}
-
-.sidebar {
-  width: 100%;
-  text-align: center;
-  margin-top: 5vh;
-}
-</style>
-
 
 My name is Alexander Johnston, I am a Master's student at the University of Guelph in the Geography Department. My research is on mapping of heathland habitats and disturbance histories within the Miawpukek First Nations (MFN) Traditional Territory. My primary research objective is to investigate the dynamics between forest and heathland ecosystems, focusing the post disturbance sucession and its implications for forest management and conservation practices
 
