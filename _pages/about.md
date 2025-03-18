@@ -9,10 +9,15 @@ redirect_from:
   - /about.html
 ---
 <style>
-  .sidebar {
-    position: relative; /* Keeps it in the normal document flow */
-    margin-top: -5vh; /* Pushes it down */
-  }
+.sidebar {
+  position: relative; /* Keeps it in normal document flow */
+  display: block; /* Ensures it behaves like a normal div */
+  clear: both; /* Prevents floating next to the header */
+  margin-top: 5vh; /* Push it down slightly */
+  width: 100%; /* Ensures full width alignment */
+  text-align: center; /* Centers content inside */
+}
+
 .sidebar img {
   max-width: 100%; /* Ensures it resizes properly */
   height: auto;
