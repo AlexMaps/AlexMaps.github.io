@@ -10,7 +10,7 @@ redirect_from:
 ---
 <style>
 .sidebar img {
-  margin-top: 0vh; /* Push image down */
+  margin-top: 5vh; /* Push image down */
   max-width: 100%; /* Ensures it resizes properly */
   height: auto;
 }
