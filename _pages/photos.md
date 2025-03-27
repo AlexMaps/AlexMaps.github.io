@@ -28,12 +28,12 @@ toc: true
   }
 
   .photo-gallery img {
-    width: 100%; /* Ensures images fit grid */
-    height: auto;
-    object-fit: cover;
-    border-radius: 5px;
-    transition: transform 0.2s;
-  }
+  width: 100%;
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image fills the area without stretching */
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
 
   .photo-gallery img:hover {
     transform: scale(1.05);
