@@ -5,6 +5,11 @@ toc: true
 ---
 
 <style>
+  .sidebar img {
+  max-width: 95%; /* Ensures it resizes properly */
+  height: auto;
+}
+
   /* Ensure the page content is constrained */
   .page-content {
     width: 100%;
