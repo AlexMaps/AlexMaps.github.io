@@ -20,17 +20,16 @@ toc: true
     padding: 10px;
   }
 
-  .photo-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Increase min size */
-  gap: 5px;
+ .photo-gallery {
+  column-count: 3;
+  column-gap: 5px;
 }
-  .photo-gallery img {
+
+.photo-gallery img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  display: block;
   border-radius: 5px;
-  transition: transform 0.2s;
 }
   
   .photo-gallery img:hover {
