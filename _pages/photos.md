@@ -28,7 +28,7 @@ toc: true
   .photo-gallery img {
   width: 100%;
   max-height: 250px; /* Prevents excessive upscaling */
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 5px;
   transition: transform 0.2s;
 }
