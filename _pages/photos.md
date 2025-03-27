@@ -21,20 +21,18 @@ toc: true
   }
 
   .photo-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 5px;
-    justify-content: center;
-  }
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Increase min size */
+  gap: 5px;
+}
   .photo-gallery img {
   width: 100%;
-  height: 250px; /* Set a fixed height */
-  object-fit: cover; /* Ensures the image fills the area without stretching */
+  max-height: 250px; /* Prevents excessive upscaling */
+  object-fit: cover;
   border-radius: 5px;
   transition: transform 0.2s;
 }
-
+  
   .photo-gallery img:hover {
     transform: scale(1.05);
   }
