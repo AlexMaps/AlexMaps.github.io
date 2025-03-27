@@ -22,7 +22,7 @@ toc: true
 
  .photo-gallery {
   column-count: 3;
-  column-gap: 5px;
+  column-gap: 10px;
 }
 
 .photo-gallery img {
