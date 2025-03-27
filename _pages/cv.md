@@ -8,6 +8,12 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+  .sidebar img {
+  max-width: 95%; /* Ensures it resizes properly */
+  height: auto;
+}
+</style>
 
 Professional Scientific Highlights
 ======
