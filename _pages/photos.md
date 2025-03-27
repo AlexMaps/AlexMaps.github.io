@@ -30,6 +30,7 @@ toc: true
   height: auto;
   display: block;
   border-radius: 5px;
+  margin-bottom: 10px; 
 }
   
   .photo-gallery img:hover {
