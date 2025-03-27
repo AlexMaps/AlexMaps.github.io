@@ -61,7 +61,7 @@ toc: true
 
 <div class="photo-gallery-container">
   <div class="photo-gallery">
-    {% assign photos = "TicklePoint.JPG,TerraNova.JPG,001362930008.jpg,001362930011.jpg,001362930013.jpg,001362930016.jpg,001362930028.jpg,001362930029.jpg,001362930031.jpg,001362930036.jpg,001362940001.jpg,001362940004.jpg,001362950003.jpg,001362950006.jpg,001362950007.jpg,001362950008.jpg,001362950017.jpg,001362950020.jpg,001362950022.jpg,001384340014.jpg,001384340016.jpg"| split: "," %}
+    {% assign photos = "TicklePoint.JPG,TerraNova.JPG,SalmonAccess.JPG,001362930008.jpg,001362930011.jpg,001362930013.jpg,001362930016.jpg,001362930028.jpg,001362930029.jpg,001362930031.jpg,001362930036.jpg,001362940001.jpg,001362940004.jpg,001362950003.jpg,001362950006.jpg,001362950007.jpg,001362950008.jpg,001362950017.jpg,001362950020.jpg,001362950022.jpg,001384340014.jpg,001384340016.jpg"| split: "," %}
 
     {% for photo in photos %}
       <a href="{{ '/images/filmphotos/' | append: photo | relative_url }}" target="_blank">
