@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 <style>
-.page_sidebar {
+.page__sidebar {
   position: fixed !important;
   top: 100px;       /* adjust vertical position */
   height: max-content;
