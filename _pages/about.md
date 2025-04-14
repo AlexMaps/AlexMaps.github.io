@@ -9,6 +9,11 @@ redirect_from:
   - /about.html
 ---
 <style>
+.page__sidebar {
+  position: sticky;
+  top: 1rem; /* adjust as needed */
+  align-self: start;
+}
   .sidebar img {
   max-width: 95%; /* Ensures it resizes properly */
   height: auto;
