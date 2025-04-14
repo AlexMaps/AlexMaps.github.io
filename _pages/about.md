@@ -10,8 +10,8 @@ redirect_from:
 ---
 <style>
 .page_sidebar {
-  position: fixed;
-  top: 50px;       /* adjust vertical position */
+  position: fixed !important;
+  top: 100px;       /* adjust vertical position */
   height: max-content;
 }
   .sidebar img {
