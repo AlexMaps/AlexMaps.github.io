@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 <style>
-.page__sidebar {
+.sidebar {
   position: fixed !important;
   top: 100px;       /* adjust vertical position */
   height: max-content;
