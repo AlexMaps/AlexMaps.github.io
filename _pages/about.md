@@ -10,15 +10,9 @@ redirect_from:
 ---
 <style>
 .sidebar {
-  position: sticky;
+  position: fixed;
   top: 50px;       /* adjust vertical position */
-  align-self: flex-start;
   height: max-content;
-}
-.page {
-  display: flex;
-  align-items: flex-start;
-}
 }
   .sidebar img {
   max-width: 95%; /* Ensures it resizes properly */
