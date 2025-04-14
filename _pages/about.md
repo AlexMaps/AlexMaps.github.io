@@ -11,12 +11,6 @@ redirect_from:
 ---
 
 <style>
-.sidebar {
-  position: fixed !important;
-  top: 100px;       /* adjust vertical position */
-  height: max-content;
-  transform: none !important;
-}
   .sidebar img {
   max-width: 95%; /* Ensures it resizes properly */
   height: auto;
