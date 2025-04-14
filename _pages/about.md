@@ -5,6 +5,11 @@ title: "Welcome to my Portfolio"
 header:
   image: ContourBanner2.png
 author_profile: true
+sidebar:
+  - title: "Custom Sidebar"
+    text: "This triggers the sidebar include"
+  nav: "sidebar"
+  fixed: true  # This is custom — we’ll use it to target the page
 redirect_from: 
   - /about/
   - /about.html
