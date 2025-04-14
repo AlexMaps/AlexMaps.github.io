@@ -1,5 +1,6 @@
 ---
 permalink: /
+layout: single
 title: "Welcome to my Portfolio"
 header:
   image: ContourBanner2.png
