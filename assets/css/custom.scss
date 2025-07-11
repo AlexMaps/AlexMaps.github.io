@@ -1,4 +1,5 @@
-/* Only apply margin on homepage to push profile image below banner */
-.home .author__avatar {
-    margin-top: 80px; /* adjust as needed */
+@media (min-width: 80em) {
+    .home .sidebar {
+        padding-top: 200px; /* adjust this value until the sidebar clears your banner */
+    }
 }
