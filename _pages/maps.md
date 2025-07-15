@@ -64,11 +64,11 @@ toc: true
 
 <div class="photo-gallery-container">
   <div class="photo-gallery">
-    {% assign photos = "MFNmap2.jpg, Forest2HeathlandPrediction.jpg"| split: "," %}
+    {% assign photos = "MFNmap2.jpg,Forest2HeathlandPrediction.jpg"| split: "," %}
 
     {% for photo in photos %}
       <a href="{{ '/images/maps/' | append: photo | relative_url }}" target="_blank">
-        <img src="{{ '/images/maps/' | append: photo | relative_url }}" alt="Film Photo">
+        <img src="{{ '/images/maps/' | append: photo | relative_url }}" alt="Missing Map">
       </a>
     {% endfor %}
   </div>
