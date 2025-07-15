@@ -15,7 +15,7 @@ redirect_from:
 }
 </style>
 
-My name is Alexander Johnston, I am a Master's student at the University of Guelph in the Geography Department. My research is on mapping of heathland habitats and disturbance histories within the Miawpukek First Nations (MFN) Traditional Territory. My primary research objective is to investigate the dynamics between forest and heathland ecosystems, focusing the post disturbance sucession and its implications for forest management and conservation practices
+My name is Alexander Johnston, I am a Master's student at the University of Guelph in the Geography Department. My research is on mapping of heathland habitats and disturbance histories within the Miawpukek First Nations (MFN) Traditional Territory. My primary research objective is to investigate the dynamics between forest and heathland ecosystems, focusing the post disturbance sucession and its implications for forest management and conservation practices.
 
 ![3P lab Quadrat Sampling in culturally significant heathland above Conne River](/images/DJI_0047.JPG)
 
@@ -41,5 +41,5 @@ For this preliminary study I assesed how the integration of various data source 
 
 **Impacts of Potential Rail Crossing Closures on Active Transportation in Guelph, Ontario**
 
-For this capstone project my group assessed the impacts of rail crossing closure(s) on active transportation users and routes in Guelph for the Guelph Coalition for Active Transportation (GCAT). Using ArcGIS Pro’s Network Analyst and statistical paired t-test analysis we identified the impacts to 5 crossings with the city. While closures had a minimal impact on pedestrian and cyclist travel times and distances, they often forced cyclists and pedestrians to take more dangerous routes such as those without more lanes and higher speeds. [Read the full report](/files/GCAT_Report.pdf)
+For this capstone project my group assessed the impacts of rail crossing closure(s) on active transportation users and routes in Guelph for the Guelph Coalition for Active Transportation (GCAT). Using ArcGIS Pro’s Network Analyst and statistical paired t-test analysis we identified the impacts to 5 crossings with the city. While closures had a minimal impact on pedestrian and cyclist travel times and distances, they often forced cyclists and pedestrians to take more dangerous routes such as those with more lanes and higher posted speeds. [Read the full report](/files/GCAT_Report.pdf)
 
