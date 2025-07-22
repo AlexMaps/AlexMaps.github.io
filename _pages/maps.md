@@ -58,7 +58,7 @@ toc: true
 
 <div class="photo-gallery-container">
   <div class="photo-gallery">
-    {% assign photos = "MFNmap2.jpg,Forest2HeathlandPrediction.jpg"| split: "," %}
+    {% assign photos = "BorealMapFinal.jpg,Forest2HeathlandPrediction.jpg"| split: "," %}
 
     {% for photo in photos %}
       <a href="{{ '/images/maps/' | append: photo | relative_url }}" target="_blank">
