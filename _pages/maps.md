@@ -75,7 +75,7 @@ toc: true
   }
 </style>
 
-## Interactive Map
+## Webmaps
 
 <div class="webmap-container">
   <iframe 
@@ -85,7 +85,7 @@ toc: true
   </iframe>
 </div>
 
-## Static Map Gallery
+#Thesis Maps
 
 <div class="photo-gallery-container">
   <div class="photo-gallery">
