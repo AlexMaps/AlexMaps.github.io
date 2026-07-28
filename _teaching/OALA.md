@@ -1,7 +1,7 @@
 ---
 title: "OALA Intro to GIS"
 collection: teaching
-type: "Toolkit Training"
+type: "Toolkit Training (Ongoing)"
 permalink: /teaching/OALA
 venue: "Ontario Aboriginal Lands Association"
 date: 2026-04-27
