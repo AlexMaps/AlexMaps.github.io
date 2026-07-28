@@ -3,7 +3,6 @@ title: "OALA Intro to GIS"
 collection: teaching
 type: "Toolkit Training"
 permalink: /teaching/OALA
-date: "Ongoing"
 location: "ONTARIO"
 ---
 
