@@ -24,10 +24,10 @@ author:
   avatar           : "ProfilePicture2.jpg"
   name             : "Alexander M. Johnston"
   pronouns         : "he/him"  
-  bio              : "MSc Geography Candidate <br> Semi-Professional Bushwacker"
+  bio              : "GIS Technician <br> MSc Geography <br> Semi-Professional Bushwacker"
   location         : "Guelph, On"
-  employer         : "University of Guelph"
-  uri              : # URL
+  employer         : "Ontario Aboriginal Lands Association"
+  uri              : "https://oala-on.ca/"
   email            : "alexj.kenner@gmail.com" 
 
   # Academic websites
