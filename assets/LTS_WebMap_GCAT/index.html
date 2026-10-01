@@ -37,12 +37,11 @@
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
         <script src="js/leaflet.photon.js"></script>
-        <script src="data/Wards_1.js"></script>
-        <script src="data/CyclingLevelofTrafficStress_2.js"></script>
-        <script src="data/CityBoundary_3.js"></script>
+        <script src="data/LevelofCyclingTrafficStress_1.js"></script>
+        <script src="data/CityBoundary_2.js"></script>
         <script>
         var map = L.map('map', {
-            zoomControl:false, maxZoom:28, minZoom:1
+            zoomControl:false, maxZoom:18, minZoom:10
         })
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -147,7 +146,7 @@
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'This Level of Traffic Stress (LTS) map evaluates the comfort, perceived safety, and connectivity of Guelph\'s cycling and road network. Based on the Mineta Transportation Institute’s LTS framework (Mekuria et al., 2012), we classified Guelph\'s network into four stress scores ranging from LTS 1 (low-stress facilities suitable for all ages and abilities) to LTS 4 (high-stress arterials tolerated only by highly confident riders). <br /><br />We used data from OpenStreetMap to evaluate the LTS across the city based on separation (off-street multi-use paths vs. on-street bike lanes vs. mixed traffic), posted speed limits, the number of travel lanes, and, when information is available, lane width and bike lane width. LTS is based the "Weakest Link" logic meaning that if any single parameter on a roadway segment or crossing exceeds the threshold for LTS category, the overall rating for that link increases to a higher stress level. <a href="https://peterfurth.sites.northeastern.edu/level-of-traffic-stress/" target="_blank">Read more about LTS criteria here</a><br /><br />LTS helps identify which routes are comfortable and acessible moving beyond standard maps that simply show where bike lanes exist. For example, quiet residential street will get a Stress Score of 1, while the seperated bike lane along Woodlawn has a Stress Score of 3 due to wide roads, high speeds, and right-hook hazards. By looking at speed and road design alongside separation, this map paints a much better picture of what it is actually like to cycle along these segments.<br />Last Updated: July 2026';
+                this._div.innerHTML = 'This Level of Traffic Stress (LTS) map evaluates the comfort, perceived safety, and connectivity of Guelph\'s cycling and road network. Based on the Mineta Transportation Institute’s LTS framework (Mekuria et al., 2012), we classified Guelph\'s network into four stress scores ranging from LTS 1 (low-stress facilities suitable for all ages and abilities) to LTS 4 (high-stress arterials tolerated only by highly confident riders). <br /><br />The code for this analysis is built on BikeSpace\'s LTS-OSM repository, which is a fork of Madeleine Bonsma-Fisher\'s implementation for calculating LTS from OpenStreetMap data, itself adapted from Bike Ottawa\'s stress model. We used data from OpenStreetMap to evaluate the LTS across the city based on separation (off-street multi-use paths vs. on-street bike lanes vs. mixed traffic), posted speed limits, the number of travel lanes, and, when information is available, lane width and bike lane width. LTS is based the "Weakest Link" logic meaning that if any single parameter on a roadway segment or crossing exceeds the threshold for LTS category, the overall rating for that link increases to a higher stress level. <a href="https://peterfurth.sites.northeastern.edu/level-of-traffic-stress/" target="_blank">Read more about LTS criteria here</a><br /><br />LTS helps identify which routes are comfortable and acessible moving beyond standard maps that simply show where bike lanes exist. By looking at speed and road design alongside separation, this map paints a much better picture of what it is actually like to cycle along these segments.<br />Last Updated: Oct 2026';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
@@ -168,170 +167,38 @@
             pane: 'pane_OSMStandard_0',
             opacity: 1.0,
             attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
-            minZoom: 1,
-            maxZoom: 28,
+            minZoom: 10,
+            maxZoom: 18,
             minNativeZoom: 0,
             maxNativeZoom: 19
         });
         layer_OSMStandard_0;
         map.addLayer(layer_OSMStandard_0);
-        function pop_Wards_1(feature, layer) {
+        function pop_LevelofCyclingTrafficStress_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['WARD'] !== null ? autolinker.link(String(feature.properties['WARD']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
-            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
-			layer.on('popupopen', function(e) {
-				addClassToPopupIfMedia(content, e.popup);
-			});
-			layer.bindPopup(content, { maxHeight: 400 });
-        }
-
-       function style_Wards_1_0(feature) {
-            switch(String(feature.properties['WARD'])) {
-                case '1':
-                    return {
-                pane: 'pane_Wards_1',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 0.55,
-                fillColor: 'rgba(182,234,252,1.0)',
-                interactive: false,
-            }
-                    break;
-                case '2':
-                    return {
-                pane: 'pane_Wards_1',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 0.55,
-                fillColor: 'rgba(180,252,179,1.0)',
-                interactive: false,
-            }
-                    break;
-                case '3':
-                    return {
-                pane: 'pane_Wards_1',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 0.55,
-                fillColor: 'rgba(182,179,252,1.0)',
-                interactive: false,
-            }
-                    break;
-                case '4':
-                    return {
-                pane: 'pane_Wards_1',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 0.55,
-                fillColor: 'rgba(252,239,202,1.0)',
-                interactive: false,
-            }
-                    break;
-                case '5':
-                    return {
-                pane: 'pane_Wards_1',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 0.55,
-                fillColor: 'rgba(212,213,252,1.0)',
-                interactive: false,
-            }
-                    break;
-                case '6':
-                    return {
-                pane: 'pane_Wards_1',
-                opacity: 1,
-                color: 'rgba(35,35,35,1.0)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 0.55,
-                fillColor: 'rgba(252,182,210,1.0)',
-                interactive: false,
-            }
-                    break;
-            }
-        }
-        map.createPane('pane_Wards_1');
-        map.getPane('pane_Wards_1').style.zIndex = 401;
-        map.getPane('pane_Wards_1').style['mix-blend-mode'] = 'normal';
-        var layer_Wards_1 = new L.geoJson(json_Wards_1, {
-            attribution: '',
-            interactive: false,
-            dataVar: 'json_Wards_1',
-            layerName: 'layer_Wards_1',
-            pane: 'pane_Wards_1',
-            onEachFeature: pop_Wards_1,
-            style: style_Wards_1_0,
-        });
-        bounds_group.addLayer(layer_Wards_1);
-        map.addLayer(layer_Wards_1);
-        function pop_CyclingLevelofTrafficStress_2(feature, layer) {
-            var popupContent = '<table>\
-                    <tr>\
-                        <th scope="row">name</th>\
+                        <th scope="row">Name</th>\
                         <td class="visible-with-data" id="name">' + (feature.properties['name'] !== null ? autolinker.link(String(feature.properties['name']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">maxspeed</th>\
-                        <td class="visible-with-data" id="maxspeed">' + (feature.properties['maxspeed'] !== null ? autolinker.link(String(feature.properties['maxspeed']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">lit</th>\
-                        <td class="visible-with-data" id="lit">' + (feature.properties['lit'] !== null ? autolinker.link(String(feature.properties['lit']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">lanes</th>\
-                        <td class="visible-with-data" id="lanes">' + (feature.properties['lanes'] !== null ? autolinker.link(String(feature.properties['lanes']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">highway</th>\
+                        <th scope="row">Segment Type</th>\
                         <td class="visible-with-data" id="highway">' + (feature.properties['highway'] !== null ? autolinker.link(String(feature.properties['highway']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">foot</th>\
-                        <td class="visible-with-data" id="foot">' + (feature.properties['foot'] !== null ? autolinker.link(String(feature.properties['foot']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <th scope="row">Level of Traffic Stress (LTS)</th>\
+                        <td class="visible-with-data" id="lts">' + (feature.properties['lts'] !== null ? autolinker.link(String(feature.properties['lts']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">bicycle</th>\
-                        <td class="visible-with-data" id="bicycle">' + (feature.properties['bicycle'] !== null ? autolinker.link(String(feature.properties['bicycle']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <th scope="row">Number of Lanes</th>\
+                        <td class="visible-with-data" id="lanes_assumed">' + (feature.properties['lanes_assumed'] !== null ? autolinker.link(String(feature.properties['lanes_assumed']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['alt_name'] !== null ? autolinker.link(String(feature.properties['alt_name']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <th scope="row">Speed Limit</th>\
+                        <td class="visible-with-data" id="maxspeed_assumed">' + (feature.properties['maxspeed_assumed'] !== null ? autolinker.link(String(feature.properties['maxspeed_assumed']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Bike Stress Score</th>\
-                        <td class="visible-with-data" id="StressScore">' + (feature.properties['StressScore'] !== null ? autolinker.link(String(feature.properties['StressScore']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <th scope="row">Reason</th>\
+                        <td class="visible-with-data" id="message">' + (feature.properties['message'] !== null ? autolinker.link(String(feature.properties['message']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -341,11 +208,11 @@
 			layer.bindPopup(content, { maxHeight: 400 });
         }
 
-        function style_CyclingLevelofTrafficStress_2_0(feature) {
-            switch(String(feature.properties['StressScore'])) {
+        function style_LevelofCyclingTrafficStress_1_0(feature) {
+            switch(String(feature.properties['lts'])) {
                 case '1':
                     return {
-                pane: 'pane_CyclingLevelofTrafficStress_2',
+                pane: 'pane_LevelofCyclingTrafficStress_1',
                 opacity: 1,
                 color: 'rgba(5,214,35,1.0)',
                 dashArray: '',
@@ -358,7 +225,7 @@
                     break;
                 case '2':
                     return {
-                pane: 'pane_CyclingLevelofTrafficStress_2',
+                pane: 'pane_LevelofCyclingTrafficStress_1',
                 opacity: 1,
                 color: 'rgba(255,234,6,1.0)',
                 dashArray: '',
@@ -371,7 +238,7 @@
                     break;
                 case '3':
                     return {
-                pane: 'pane_CyclingLevelofTrafficStress_2',
+                pane: 'pane_LevelofCyclingTrafficStress_1',
                 opacity: 1,
                 color: 'rgba(255,133,5,1.0)',
                 dashArray: '',
@@ -384,7 +251,7 @@
                     break;
                 case '4':
                     return {
-                pane: 'pane_CyclingLevelofTrafficStress_2',
+                pane: 'pane_LevelofCyclingTrafficStress_1',
                 opacity: 1,
                 color: 'rgba(235,0,0,1.0)',
                 dashArray: '',
@@ -397,26 +264,26 @@
                     break;
             }
         }
-        map.createPane('pane_CyclingLevelofTrafficStress_2');
-        map.getPane('pane_CyclingLevelofTrafficStress_2').style.zIndex = 402;
-        map.getPane('pane_CyclingLevelofTrafficStress_2').style['mix-blend-mode'] = 'normal';
-        var layer_CyclingLevelofTrafficStress_2 = new L.geoJson(json_CyclingLevelofTrafficStress_2, {
+        map.createPane('pane_LevelofCyclingTrafficStress_1');
+        map.getPane('pane_LevelofCyclingTrafficStress_1').style.zIndex = 401;
+        map.getPane('pane_LevelofCyclingTrafficStress_1').style['mix-blend-mode'] = 'normal';
+        var layer_LevelofCyclingTrafficStress_1 = new L.geoJson(json_LevelofCyclingTrafficStress_1, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_CyclingLevelofTrafficStress_2',
-            layerName: 'layer_CyclingLevelofTrafficStress_2',
-            pane: 'pane_CyclingLevelofTrafficStress_2',
-            onEachFeature: pop_CyclingLevelofTrafficStress_2,
-            style: style_CyclingLevelofTrafficStress_2_0,
+            dataVar: 'json_LevelofCyclingTrafficStress_1',
+            layerName: 'layer_LevelofCyclingTrafficStress_1',
+            pane: 'pane_LevelofCyclingTrafficStress_1',
+            onEachFeature: pop_LevelofCyclingTrafficStress_1,
+            style: style_LevelofCyclingTrafficStress_1_0,
         });
-        bounds_group.addLayer(layer_CyclingLevelofTrafficStress_2);
-        map.addLayer(layer_CyclingLevelofTrafficStress_2);
-        function pop_CityBoundary_3(feature, layer) {
+        bounds_group.addLayer(layer_LevelofCyclingTrafficStress_1);
+        map.addLayer(layer_LevelofCyclingTrafficStress_1);
+        function pop_CityBoundary_2(feature, layer) {
         }
 
-        function style_CityBoundary_3_0() {
+        function style_CityBoundary_2_0() {
             return {
-                pane: 'pane_CityBoundary_3',
+                pane: 'pane_CityBoundary_2',
                 opacity: 1,
                 color: 'rgba(0,0,0,1.0)',
                 dashArray: '',
@@ -427,20 +294,20 @@
                 interactive: false,
             }
         }
-        map.createPane('pane_CityBoundary_3');
-        map.getPane('pane_CityBoundary_3').style.zIndex = 403;
-        map.getPane('pane_CityBoundary_3').style['mix-blend-mode'] = 'normal';
-        var layer_CityBoundary_3 = new L.geoJson(json_CityBoundary_3, {
+        map.createPane('pane_CityBoundary_2');
+        map.getPane('pane_CityBoundary_2').style.zIndex = 402;
+        map.getPane('pane_CityBoundary_2').style['mix-blend-mode'] = 'normal';
+        var layer_CityBoundary_2 = new L.geoJson(json_CityBoundary_2, {
             attribution: '',
             interactive: false,
-            dataVar: 'json_CityBoundary_3',
-            layerName: 'layer_CityBoundary_3',
-            pane: 'pane_CityBoundary_3',
-            onEachFeature: pop_CityBoundary_3,
-            style: style_CityBoundary_3_0,
+            dataVar: 'json_CityBoundary_2',
+            layerName: 'layer_CityBoundary_2',
+            pane: 'pane_CityBoundary_2',
+            onEachFeature: pop_CityBoundary_2,
+            style: style_CityBoundary_2_0,
         });
-        bounds_group.addLayer(layer_CityBoundary_3);
-        map.addLayer(layer_CityBoundary_3);
+        bounds_group.addLayer(layer_CityBoundary_2);
+        map.addLayer(layer_CityBoundary_2);
         const url = {"Nominatim OSM": "https://nominatim.openstreetmap.org/search?format=geojson&addressdetails=1&",
         "France BAN": "https://api-adresse.data.gouv.fr/search/?"}
         var photonControl = L.control.photon({
@@ -495,9 +362,8 @@
             }
         });
         var overlaysTree = [
-            {label: '<img src="legend/CityBoundary_3.png" /> City Boundary', layer: layer_CityBoundary_3},
-            {label: 'Cycling Level of Traffic Stress<br /><table><tr><td style="text-align: center;"><img src="legend/CyclingLevelofTrafficStress_2_10.png" /></td><td>1</td></tr><tr><td style="text-align: center;"><img src="legend/CyclingLevelofTrafficStress_2_21.png" /></td><td>2</td></tr><tr><td style="text-align: center;"><img src="legend/CyclingLevelofTrafficStress_2_32.png" /></td><td>3</td></tr><tr><td style="text-align: center;"><img src="legend/CyclingLevelofTrafficStress_2_43.png" /></td><td>4</td></tr></table>', layer: layer_CyclingLevelofTrafficStress_2},
-            {label: 'Wards<br /><table><tr><td style="text-align: center;"><img src="legend/Wards_1_10.png" /></td><td>1</td></tr><tr><td style="text-align: center;"><img src="legend/Wards_1_21.png" /></td><td>2</td></tr><tr><td style="text-align: center;"><img src="legend/Wards_1_32.png" /></td><td>3</td></tr><tr><td style="text-align: center;"><img src="legend/Wards_1_43.png" /></td><td>4</td></tr><tr><td style="text-align: center;"><img src="legend/Wards_1_54.png" /></td><td>5</td></tr><tr><td style="text-align: center;"><img src="legend/Wards_1_65.png" /></td><td>6</td></tr></table>', layer: layer_Wards_1},
+            {label: '<img src="legend/CityBoundary_2.png" /> City Boundary', layer: layer_CityBoundary_2},
+            {label: 'Level of Cycling Traffic Stress<br /><table><tr><td style="text-align: center;"><img src="legend/LevelofCyclingTrafficStress_1_Suitableforallagesandabilities0.png" /></td><td>Suitable for all ages and abilities</td></tr><tr><td style="text-align: center;"><img src="legend/LevelofCyclingTrafficStress_1_LowStressSuitableformostadults1.png" /></td><td>Low Stress Suitable for most adults</td></tr><tr><td style="text-align: center;"><img src="legend/LevelofCyclingTrafficStress_1_ModerateStressSuitableforenthusedandconfidentriders2.png" /></td><td>Moderate Stress Suitable for enthused and confident riders</td></tr><tr><td style="text-align: center;"><img src="legend/LevelofCyclingTrafficStress_1_HighStressSuitableforstrongandfearlessriders3.png" /></td><td>High Stress Suitable for strong and fearless riders</td></tr></table>', layer: layer_LevelofCyclingTrafficStress_1},
             {label: "OSM Standard", layer: layer_OSMStandard_0, radioGroup: 'bm' },]
         var lay = L.control.layers.tree(null, overlaysTree,{
             //namedToggle: true,
