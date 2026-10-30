@@ -130,22 +130,22 @@ toc: false
   </iframe>
 </div>
 
-<!-- Second Webmap: BikeRackWebMap -->
+<!-- Second Webmap: Guelph Bike Rack Map (QFieldCloud Live) -->
 <div class="webmap-wrapper">
   <div class="webmap-toolbar">
     <button type="button" class="map-btn" onclick="openMapFullscreen('leaflet-map-frame-2')">
       <span>⤢ Full Screen</span>
     </button>
-    <a href="{{ '/assets/BikeRackWebMap/index.html' | relative_url }}" target="_blank" class="map-btn">
+    <a href="https://app.qfield.cloud/a/GCAT_GIS/Guelph_Bike_Rack_Map/map" target="_blank" class="map-btn">
       <span>↗ Open in New Tab</span>
     </a>
   </div>
 
   <iframe 
     id="leaflet-map-frame-2"
-    src="{{ '/assets/BikeRackWebMap/index.html' | relative_url }}" 
+    src="https://app.qfield.cloud/a/GCAT_GIS/Guelph_Bike_Rack_Map/map" 
     class="webmap-iframe"
-    title="Bike Rack Web Map"
+    title="Guelph Bike Rack Map"
     allowfullscreen="true"
     webkitallowfullscreen="true"
     mozallowfullscreen="true">
