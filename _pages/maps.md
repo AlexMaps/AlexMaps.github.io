@@ -107,9 +107,11 @@ toc: false
 </style>
 
 ## Webmaps
+
+<!-- First Webmap: LTS WebMap GCAT -->
 <div class="webmap-wrapper">
   <div class="webmap-toolbar">
-    <button type="button" class="map-btn" onclick="openMapFullscreen()">
+    <button type="button" class="map-btn" onclick="openMapFullscreen('leaflet-map-frame-1')">
       <span>⤢ Full Screen</span>
     </button>
     <a href="{{ '/assets/LTS_WebMap_GCAT/index.html' | relative_url }}" target="_blank" class="map-btn">
@@ -118,7 +120,7 @@ toc: false
   </div>
 
   <iframe 
-    id="leaflet-map-frame"
+    id="leaflet-map-frame-1"
     src="{{ '/assets/LTS_WebMap_GCAT/index.html' | relative_url }}" 
     class="webmap-iframe"
     title="LTS WebMap GCAT"
@@ -128,9 +130,31 @@ toc: false
   </iframe>
 </div>
 
+<!-- Second Webmap: BikeRackWebMap -->
+<div class="webmap-wrapper">
+  <div class="webmap-toolbar">
+    <button type="button" class="map-btn" onclick="openMapFullscreen('leaflet-map-frame-2')">
+      <span>⤢ Full Screen</span>
+    </button>
+    <a href="{{ '/assets/BikeRackWebMap/index.html' | relative_url }}" target="_blank" class="map-btn">
+      <span>↗ Open in New Tab</span>
+    </a>
+  </div>
+
+  <iframe 
+    id="leaflet-map-frame-2"
+    src="{{ '/assets/BikeRackWebMap/index.html' | relative_url }}" 
+    class="webmap-iframe"
+    title="Bike Rack Web Map"
+    allowfullscreen="true"
+    webkitallowfullscreen="true"
+    mozallowfullscreen="true">
+  </iframe>
+</div>
+
 <script>
-  function openMapFullscreen() {
-    var mapFrame = document.getElementById("leaflet-map-frame");
+  function openMapFullscreen(frameId) {
+    var mapFrame = document.getElementById(frameId);
     if (mapFrame.requestFullscreen) {
       mapFrame.requestFullscreen();
     } else if (mapFrame.webkitRequestFullscreen) { /* Safari */
