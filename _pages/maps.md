@@ -108,44 +108,22 @@ toc: false
 
 ## Webmaps
 
-<!-- First Webmap: LTS WebMap GCAT -->
+<!-- BikeRackWebMap -->
 <div class="webmap-wrapper">
   <div class="webmap-toolbar">
     <button type="button" class="map-btn" onclick="openMapFullscreen('leaflet-map-frame-1')">
       <span>⤢ Full Screen</span>
     </button>
-    <a href="{{ '/assets/LTS_WebMap_GCAT/index.html' | relative_url }}" target="_blank" class="map-btn">
+    <a href="{{ '/assets/BikeRackWebMap/index.html' | relative_url }}" target="_blank" class="map-btn">
       <span>↗ Open in New Tab</span>
     </a>
   </div>
 
   <iframe 
     id="leaflet-map-frame-1"
-    src="{{ '/assets/LTS_WebMap_GCAT/index.html' | relative_url }}" 
+    src="{{ '/assets/BikeRackWebMap/index.html' | relative_url }}" 
     class="webmap-iframe"
-    title="LTS WebMap GCAT"
-    allowfullscreen="true"
-    webkitallowfullscreen="true"
-    mozallowfullscreen="true">
-  </iframe>
-</div>
-
-<!-- Second Webmap: Guelph Bike Rack Map (QFieldCloud Live) -->
-<div class="webmap-wrapper">
-  <div class="webmap-toolbar">
-    <button type="button" class="map-btn" onclick="openMapFullscreen('leaflet-map-frame-2')">
-      <span>⤢ Full Screen</span>
-    </button>
-    <a href="https://app.qfield.cloud/a/GCAT_GIS/Guelph_Bike_Rack_Map/map" target="_blank" class="map-btn">
-      <span>↗ Open in New Tab</span>
-    </a>
-  </div>
-
-  <iframe 
-    id="leaflet-map-frame-2"
-    src="https://app.qfield.cloud/a/GCAT_GIS/Guelph_Bike_Rack_Map/map" 
-    class="webmap-iframe"
-    title="Guelph Bike Rack Map"
+    title="Bike Rack Web Map"
     allowfullscreen="true"
     webkitallowfullscreen="true"
     mozallowfullscreen="true">
